@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cccfcd;
+}
+
+.navbar {
+    display: flex;
+    height: 65px;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.nav-icon img {
+    height: 65%;
+    margin: 12px 20px;
+}
+
+.container {
+    margin: 50px;
+    height: 100vh;
+}
+
+.img-profile {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.section-informasi {
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 55%;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.profile table {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.profile table tr td {
+    padding: 10px;
+}
+
+.profile table tr td:first-child {
+    font-weight: bold;
+    width: 20%;
+}
+
+.social-media {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.social-media .btn {
+    background-color: rgb(83, 110, 231);
+    color: #fff;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.social-media .btn:hover {
+    background-color: #fff;
+    color: rgb(83, 110, 231);
+}
+
+.social-media .btn img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(36, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
